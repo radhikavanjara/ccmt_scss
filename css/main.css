@@ -6,38 +6,38 @@
 /* BASE - Base styles, variables, mixins, etc */
 /* Font Colors */
 /* Background Colors */
-/* line 1, ../scss/base/_normalize.scss */
+/* line 1, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 h1, h2, h3, h4, h5 {
   margin-top: 0;
 }
 
-/* line 5, ../scss/base/_normalize.scss */
+/* line 5, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 .page-header {
   margin-top: 30px;
 }
 
-/* line 9, ../scss/base/_normalize.scss */
+/* line 9, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 .no-pad-top {
   padding-top: 0;
 }
 
-/* line 13, ../scss/base/_normalize.scss */
+/* line 13, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 .extra-pad {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 18, ../scss/base/_normalize.scss */
+/* line 18, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 .top-inner {
   padding: 90px 0 30px 0;
 }
 
-/* line 22, ../scss/base/_normalize.scss */
+/* line 22, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_normalize.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 1, ../scss/base/_base.scss */
+/* line 1, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 body {
   font-family: "Georgia", sans-serif;
   font-size: 15px;
@@ -45,29 +45,29 @@ body {
   color: #282828;
 }
 
-/* line 8, ../scss/base/_base.scss */
+/* line 8, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 a {
   color: #eaa606;
 }
 
-/* line 12, ../scss/base/_base.scss */
+/* line 12, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 16, ../scss/base/_base.scss */
+/* line 16, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 input, textarea, button {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
 
-/* line 20, ../scss/base/_base.scss */
+/* line 20, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 img.device {
   width: 100%;
 }
 
-/* line 24, ../scss/base/_base.scss */
+/* line 24, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/base/_base.scss */
 img.device-small {
   width: 70%;
   margin-bottom: -40px;
@@ -76,7 +76,7 @@ img.device-small {
 /* MODULES - Individual site components */
 /* LAYOUTS - Page layout styles */
 /* Navbar */
-/* line 3, ../scss/layouts/_nav.scss */
+/* line 3, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar {
   width: 95%;
   margin: auto;
@@ -87,7 +87,7 @@ img.device-small {
   background: #f1f4d8;
   margin-bottom: 30px;
 }
-/* line 12, ../scss/layouts/_nav.scss */
+/* line 12, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar a {
   color: #eaa606 !important;
   font-size: 20px;
@@ -96,46 +96,46 @@ img.device-small {
   padding-top: 20px !important;
 }
 
-/* line 22, ../scss/layouts/_nav.scss */
+/* line 22, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #eaa606 !important;
   color: #fff !important;
 }
 
-/* line 26, ../scss/layouts/_nav.scss */
+/* line 26, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-header {
   float: none;
 }
 
-/* line 29, ../scss/layouts/_nav.scss */
+/* line 29, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-toggle {
   display: block;
 }
 
-/* line 33, ../scss/layouts/_nav.scss */
+/* line 33, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-collapse {
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-/* line 37, ../scss/layouts/_nav.scss */
+/* line 37, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-toggle-collapse.collapse {
   display: none!important;
 }
 
-/* line 40, ../scss/layouts/_nav.scss */
+/* line 40, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-nav {
   float: none!important;
   margin: 7.5px -15px;
 }
 
-/* line 44, ../scss/layouts/_nav.scss */
+/* line 44, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_nav.scss */
 .navbar-nav > li {
   float: none;
 }
 
 /* Footer */
-/* line 3, ../scss/layouts/_footer.scss */
+/* line 3, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_footer.scss */
 .footer-main {
   background: #8c6303;
   color: #ffffff;
@@ -144,16 +144,16 @@ img.device-small {
   padding: 30px 0;
   z-index: 100;
 }
-/* line 10, ../scss/layouts/_footer.scss */
+/* line 10, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_footer.scss */
 .footer-main a {
   color: #ffffff;
 }
-/* line 14, ../scss/layouts/_footer.scss */
+/* line 14, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_footer.scss */
 .footer-main ul {
   margin: 0;
   padding: 0;
 }
-/* line 19, ../scss/layouts/_footer.scss */
+/* line 19, D:/Radhikav_Work/Workspace/css-projects/ccmt_scss/scss/layouts/_footer.scss */
 .footer-main li {
   line-height: 1.8em;
   list-style: none;
