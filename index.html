@@ -14,11 +14,11 @@
     <!-- Custom styles for this template -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
   </head>
 
   <body>
-
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+<!-- <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
@@ -49,13 +49,35 @@
         </nav>
 
         <div id="page-content-wrapper">
-          <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+          <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
             <span class="hamb-top"></span>
             <span class="hamb-middle"></span>
             <span class="hamb-bottom"></span>
           </button>
+ -->
+        <div id="mySidenav" class="sidenav">
+          <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="#"><i class="fa fa-fw fa-phone-square"></i> Contact Us</a>
+          <a href="#"><i class="fa fa-fw fa-user-circle"></i> About Us</a>
+          <a href="#"><i class="fa fa-fw fa-cog"></i> Settings</a>
+          </div>
 
-    
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <button class="hamburger hamburger--collapse" type="button">
+          <span class="hamburger-box" style="font-size:30px;cursor:pointer" onclick="openNav()">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <button class="hamburger hamburger--collapse hamburger--accessible js-hamburger is-active" type="button">
+          <span class="hamburger-box" style="font-size:30px;cursor:pointer" onclick="closeNav()">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        </nav>
+
+
+
+
         <div class="container showcase-content">
         <h1>Hello World!</h1>
         <p class="lead">Bootstrap HTML 5 Template</p>
@@ -97,36 +119,28 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
 
-    <script type="text/javascript">
 
-      $(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
-
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
+      <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
       }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
+
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+
+      <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      // On click
+      hamburger.addEventListener("click", function() {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
     </script>
 
   </body>
