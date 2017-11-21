@@ -43,36 +43,32 @@ body {
   font-size: 15px;
   line-height: 1.7em;
   color: #282828;
+  margin-top: 85px;
 }
 
-/* line 8, ../scss/base/_base.scss */
-container {
-  display: inline-block;
-}
-
-/* line 12, ../scss/base/_base.scss */
+/* line 9, ../scss/base/_base.scss */
 a {
   color: #eaa606;
 }
 
-/* line 16, ../scss/base/_base.scss */
+/* line 13, ../scss/base/_base.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 20, ../scss/base/_base.scss */
+/* line 17, ../scss/base/_base.scss */
 input, textarea, button {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
 
-/* line 24, ../scss/base/_base.scss */
+/* line 21, ../scss/base/_base.scss */
 img.device {
   width: 100%;
 }
 
-/* line 28, ../scss/base/_base.scss */
+/* line 25, ../scss/base/_base.scss */
 img.device-small {
   width: 70%;
   margin-bottom: -40px;
@@ -109,28 +105,29 @@ img.device-small {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #f1f4d8;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 75px;
+  line-height: 2;
 }
 
-/* line 35, ../scss/layouts/_nav.scss */
+/* line 36, ../scss/layouts/_nav.scss */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #8c6303;
   display: block;
   transition: 0.3s;
 }
 
-/* line 44, ../scss/layouts/_nav.scss */
+/* line 45, ../scss/layouts/_nav.scss */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #282828;
 }
 
-/* line 48, ../scss/layouts/_nav.scss */
+/* line 49, ../scss/layouts/_nav.scss */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -144,7 +141,7 @@ img.device-small {
 .footer-main {
   background: #8c6303;
   color: #ffffff;
-  border-top: 5px solid #68c3d9;
+  border-top: 5px solid #f1f4d8;
   min-height: 200px;
   padding: 30px 0;
   z-index: 100;
